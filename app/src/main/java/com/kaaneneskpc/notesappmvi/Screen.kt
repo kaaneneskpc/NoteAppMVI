@@ -1,4 +1,4 @@
-package com.kaaneneskpc.notesappmvi.core.presentation
+package com.kaaneneskpc.notesappmvi
 
 import  kotlinx.serialization.Serializable
 

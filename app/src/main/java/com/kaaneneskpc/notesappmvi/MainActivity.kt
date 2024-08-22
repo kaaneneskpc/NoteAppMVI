@@ -1,11 +1,12 @@
-package com.kaaneneskpc.notesappmvi.core.presentation
+package com.kaaneneskpc.notesappmvi
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.material3.Text
-import com.kaaneneskpc.notesappmvi.core.presentation.ui.theme.NotesAppMVITheme
+import com.kaaneneskpc.navigation.Navigation
+import com.kaaneneskpc.notesappmvi.noteList.presentation.NoteListScreen
+import com.kaaneneskpc.notesappmvi.ui.theme.NotesAppMVITheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             NotesAppMVITheme {
-
+                Navigation()
             }
         }
     }

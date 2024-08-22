@@ -1,4 +1,4 @@
-package com.kaaneneskpc.notesappmvi.core.presentation.ui.theme
+package com.kaaneneskpc.notesappmvi.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
